@@ -1,6 +1,6 @@
 # Telecom Churn Prediction — Streamlit App
 
-## 📖 Project Description
+##  Project Description
 
 Customer churn is one of the most expensive problems in the telecom industry —
 acquiring a new customer typically costs far more than retaining an existing one,
@@ -25,18 +25,18 @@ application, allowing anyone — not just data scientists — to input a custome
 profile and instantly see their churn risk, probability score, and suggested
 retention actions, or score an entire customer base at once via batch CSV upload.
 
-## ✂️ Summary
+##  Summary
 
 A Streamlit web app that predicts telecom customer churn using a tuned Decision
 Tree pipeline. Users enter customer details or upload a CSV to get instant churn
 predictions, probability scores, risk gauges, feature insights, and downloadable
 results — turning a trained ML model into a usable retention tool.
 
-## 🚀 Live App
+##  Live App
 
 **[https://telecom-churn-classification.streamlit.app/](https://telecom-churn-classification.streamlit.app/)**
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Telecom-Churn/
@@ -90,7 +90,3 @@ without you needing to hardcode the final schema.
 > tertile boundaries depend on that data. This app approximates them with
 > configurable thresholds (Sidebar → Advanced) — update them if you have the
 > real training-time quantile cutoffs for perfect parity.
-
-## 🔗 Deployed Link
-
-**[https://telecom-churn-classification.streamlit.app/](https://telecom-churn-classification.streamlit.app/)**
